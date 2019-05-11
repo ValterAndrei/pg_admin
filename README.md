@@ -1,17 +1,15 @@
-# Iniciando o pgAdmin
+# Starting o pgAdmin
 
-1. Instalar ambiente
+1. Install environment
 
 ```
 $ docker-compose up pgadmin-compose
 ```
 
-2. Acessar a página
-
-http://localhost:16543
+2. Access the page `http://localhost:16543`
 
 
-3. Criando um Server
+3. Creating a server
 
 ```
 Host name/address:    db-my-app
