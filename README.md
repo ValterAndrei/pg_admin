@@ -15,8 +15,9 @@ http://localhost:16543
 3. Creating a server
 
 ```
-Host name/address:    db-my-app
+Host name/address:    postgres
 Port:                 5432
-Maintenance database: myapp_development
+Maintenance database: billing_development
 Username:             postgres
+Password:             postgres
 ```
