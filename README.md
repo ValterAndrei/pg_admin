@@ -3,7 +3,7 @@
 1. Build and up the pgAdmin
 
 ```bash
-docker compose up pgadmin-compose
+docker compose up pgadmin
 ```
 
 2. Access the pgAdmin in your browser [localhost:16543](http://localhost:16543)

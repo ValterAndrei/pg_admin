@@ -3,7 +3,7 @@ volumes:
   pgadmin:
 
 services:
-  pgadmin-compose:
+  pgadmin:
     container_name: pgadmin_container
     image: dpage/pgadmin4
     environment:
