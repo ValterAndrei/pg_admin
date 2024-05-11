@@ -1,15 +1,19 @@
-version: '3.5'
+---
+volumes:
+  pgadmin:
 
 services:
   pgadmin-compose:
+    container_name: pgadmin_container
     image: dpage/pgadmin4
     environment:
-      PGADMIN_DEFAULT_EMAIL: "valterandrey@gmail.com"
-      PGADMIN_DEFAULT_PASSWORD: "PgAdmin2019!"
+      PGADMIN_DEFAULT_EMAIL: admin@provider.com
+      PGADMIN_DEFAULT_PASSWORD: Admin@123
     ports:
-      - "16543:80"
+      - '16543:80'
+    volumes:
+       - pgadmin:/var/lib/pgadmin
 
 networks:
   default:
-    external:
-      name: my-app
+    name: your_app_default
