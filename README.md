@@ -22,7 +22,7 @@ Username:             postgres
 
 ### Hint
 
-Find the current network of your project's database and replace the network in the [`docker-compose.yml`](/docker-compose.yml#L19) file.
+Find the current network of your project's database and replace the network in the [`docker-compose.yml`](/docker-compose.yml#L20) file.
 
 ```bash
 docker ps --format 'ID: {{ .ID }} - Container: {{ .Names }} - Network: {{ json .Networks }}'
